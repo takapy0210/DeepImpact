@@ -3,14 +3,11 @@
 アンサンブル学習アルゴリズムによる競馬のレース予想
 動作環境：
 
-* Python3
+- Python3
 
-[データの入手先][1]
-[詳しい解説（前編）][2]
-[詳しい解説（後編）][3]
 
-### このプログラムは、ココン株式会社の事業として公開されているものではありません。技術的部分についてAI戦略室に問い合わせをしても、解答しかねる場合があります。
-### 全て‘AS IS’でお願いします。
+## 実行方法（2019/05/25 nozawa）
+
 
 ## Make dataset
 
@@ -56,12 +53,3 @@ $ python3 tipster-ensemble.py -a ensemble -t race_train.csv -i horse_history.csv
 5着予想：ジュピターカリスト	0.0253272172995
 ・・・
 ```
-
-## License
-
-[Gnu AGPL 3.0](LICENSE)
-
-[1]: https://jra-van.jp/
-[2]: https://cocon-corporation.com/cocontoco/horseraceprediction_ai_lambdarank/
-[3]: https://cocon-corporation.com/cocontoco/horseraceprediction_ai_ensemble-learning/
-
