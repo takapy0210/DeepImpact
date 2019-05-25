@@ -6,7 +6,7 @@
 - Python3
 
 
-## 実行方法（2019/05/25 nozawa）
+## 実行方法
 
 
 ## Make dataset
